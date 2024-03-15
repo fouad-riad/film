@@ -1,0 +1,20 @@
+<div class="col"*ngIf="film" >
+    <div class="card" >
+        <img [src]="film.img" class="card-img-top" >
+        <div class="card-body">
+            <h5 class="card-title">{{film.title}}</h5>
+            <p>
+                director: {{ film.director }}
+            </p>
+            <p>
+                cast: {{ film.cast }}
+            </p>
+            <p>
+              releaseDate:  {{ film.releaseDate }}
+            </p>
+            
+            
+           
+        </div>
+    </div>
+</div>
